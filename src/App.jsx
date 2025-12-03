@@ -9,7 +9,7 @@ function App() {
   const [movies, setmovies] = useState([])
   const [query, setquery] = useState("batman")
 
-  const API_KEY = "ea8a1420"
+  const API_KEY = "YOUR_API_KEY"
 
   useEffect(() => {
     const fetchData = async () => {
